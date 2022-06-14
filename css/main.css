@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Square+Peg&display=swap");
+:root {
+  --crema: #fab75e;
+  --marron: #623c22;
+  --dorado: #ff9500;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Indie Flower", cursive;
+}
+
+body {
+  background-color: var(--crema);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.MainLogo {
+  width: 250px;
+  margin-bottom: -25px;
+}
+
+.Carta {
+  width: 280px;
+  height: 80px;
+  border: 3px solid var(--marron);
+  border-radius: 25px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.Copyright {
+  font-size: 25px;
+  color: #623c22;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.Copyright > a {
+  color: #623c22;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.Copyright > a:hover {
+  color: var(--dorado);
+  transition: 0.7s;
+}
+
+.Copyright > a:not(:hover) {
+  transition: 0.7s;
+  color: #623c22;
+}
+
+.LisboaDownloadMenu {
+  font-size: 30px;
+  text-decoration: none;
+  color: #fb3f00;
+  text-align: center;
+}
+
+.LisboaDownloadMenu:hover {
+  color: #d13400;
+  transition: 0.7s;
+  font-size: 35px;
+}
+
+.LisboaDownloadMenu:not(:hover) {
+  transition: 0.7s;
+  font-size: 30px;
+}
